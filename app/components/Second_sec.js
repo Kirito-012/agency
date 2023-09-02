@@ -9,14 +9,14 @@ const Second_sec = () => {
 					WHAT WE OFFER
 				</h1>
 				<div className="w-screen overflow-x-scroll mt-[3rem]">
-					<div className="w-[300vw] lg:w-screen lg:gap-10 lg:px-[2rem] flex ">
-						<div className="w-screen md:w-[35rem] flex justify-center">
+					<div className="w-[300vw] lg:w-screen gap:8 lg:gap-10 lg:px-[2rem] flex ">
+						<div className="w-screen mx-[2rem] md:mx-0  md:w-[35rem] flex justify-center">
 							<First />
 						</div>
-						<div className="w-screen md:w-[35rem] flex justify-center">
+						<div className="w-screen mx-[2rem] md:mx-0 md:w-[35rem] flex justify-center">
 							<Second />
 						</div>
-						<div className="w-screen md:w-[35rem] flex justify-center">
+						<div className="w-screen mx-[2rem] md:mx-0 md:w-[35rem] flex justify-center">
 							<Third />
 						</div>
 					</div>

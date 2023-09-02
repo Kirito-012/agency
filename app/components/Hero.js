@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<div>
 			<div className="h-screen flex flex-col text-center justify-center items-center">
-				<h1 className="syne text-4xl font-bold md:w-[20ch] lg:text-6xl">
+				<h1 className="syne text-4xl mx-[0.5rem] md:mx-0 font-bold md:w-[20ch] lg:text-6xl">
 					NEW <span className="text-[#ed3b27]">Al</span> WILL LEAD YOUR BUSINESS
 					BETTER
 				</h1>
