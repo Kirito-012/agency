@@ -1,28 +1,48 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import grid1 from "@/app/images/grid1.webp";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Second_sec = () => {
+	useEffect(() => {
+		Aos.init();
+	}, []);
 	return (
-		<div>
+		<>
 			<div className="w-screen pb-[8rem] bg-[#171717] flex flex-col items-center">
-				<h1 className="syne mt-[3rem] leading-[85px] w-[5ch] md:w-[10ch] lg:w-[60rem] lg:mb-[2rem] text-center text-8xl heading_trans_effect">
+				<h1 className="syne mt-[5rem] leading-[85px] w-[5ch] md:w-[10ch] lg:w-[60rem] lg:mb-[2rem] text-center text-8xl heading_trans_effect">
 					WHAT WE OFFER
 				</h1>
-				<div className="w-screen overflow-x-scroll mt-[3rem]">
+				<div className="w-screen overflow-x-scroll pb-[5rem] mt-[3rem]">
 					<div className="w-[300vw] lg:w-screen gap:8 lg:gap-10 lg:px-[2rem] flex ">
-						<div className="w-screen mx-[2rem] md:mx-0  md:w-[35rem] flex justify-center">
+						<div
+							data-aos="fade-down"
+							data-aos-duration="110	0"
+							className="w-screen mx-[2rem] md:mx-0  md:w-[35rem] flex justify-center">
 							<First />
 						</div>
-						<div className="w-screen mx-[2rem] md:mx-0 md:w-[35rem] flex justify-center">
+						<div
+							data-aos="fade-up"
+							data-aos-duration="1100"
+							className="w-screen mx-[2rem] md:mx-0 md:w-[35rem] flex justify-center">
 							<Second />
 						</div>
-						<div className="w-screen mx-[2rem] md:mx-0 md:w-[35rem] flex justify-center">
+						<div
+							data-aos="fade-down"
+							data-aos-duration="1100"
+							className="w-screen mx-[2rem] md:mx-0 md:w-[35rem] flex justify-center">
 							<Third />
 						</div>
 					</div>
 				</div>
+				<div className="h-[20rem]">
+					<h1 className="syne mt-[3rem] leading-[85px] lg:mb-[2rem] text-center text-6xl heading_trans_effect">
+						PARTNERS
+					</h1>
+				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
@@ -33,7 +53,7 @@ const First = () => {
 		<div className="flex flex-col">
 			<div>
 				<img
-					className=" w-[400px]  transition-all duration-300 ease-linear hover:rounded-[20rem] "
+					className="w-[400px] transition-all duration-300 ease-linear hover:rounded-[20rem] "
 					src={grid1.src}
 				/>
 			</div>

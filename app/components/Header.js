@@ -59,7 +59,7 @@ const Header = () => {
 			<div
 				className={`${
 					mobileNav ? "left-0" : "left-[-120vw]"
-				} z-10 fixed top-0 w-[80vw] left-0 h-screen bg-[#171717] transition-all duration-500 ease-in-out`}>
+				} z-10 fixed top-0 w-[80vw] left-0 h-[95vh] bg-[#171717] transition-all duration-500 ease-in-out`}>
 				<img
 					className="h-[30px] cursor-pointer my-[1rem] mx-[2rem] "
 					onClick={() => {
@@ -132,7 +132,7 @@ const Header = () => {
 							</svg>
 							<h2 className="syne ml-[1rem]">Log In</h2>
 						</div>
-						<div className="flex items-center">
+						<div className="flex gap-2 items-center">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								x="0px"
