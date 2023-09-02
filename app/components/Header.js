@@ -59,7 +59,7 @@ const Header = () => {
 			<div
 				className={`${
 					mobileNav ? "left-0" : "left-[-120vw]"
-				} z-10 fixed top-0 w-[80vw] left-0 h-[95vh] bg-[#171717] transition-all duration-500 ease-in-out`}>
+				} z-10 fixed top-0 w-[80vw] left-0 h-screen bg-[#171717] transition-all duration-500 ease-in-out`}>
 				<img
 					className="h-[30px] cursor-pointer my-[1rem] mx-[2rem] "
 					onClick={() => {
@@ -115,7 +115,7 @@ const Header = () => {
 						</ul>
 					</div>
 
-					<div className="flex flex-col px-[2rem] py-[2rem] bg-[#292929] h-[10rem] ">
+					<div className="flex flex-col px-[2rem] py-[2rem] bg-[#292929] h-[15rem] ">
 						<div className="text-white cursor-pointer flex hover:text-[#f33c27] transition-all duration-300 ease-linear">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
