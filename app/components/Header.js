@@ -9,10 +9,12 @@ const Header = () => {
 	return (
 		<>
 			<div className="bg-black flex items-center justify-around md:justify-between md:px-[3rem] h-[7rem] ">
-				<img
-					className="ml-[4rem] md:ml-0 w-[200px]"
-					src="https://dt-dots.myshopify.com/cdn/shop/files/logo.png?v=1684126223&width=400"
-				/>
+				<Link href="/">
+					<img
+						className="ml-[4rem] md:ml-0 w-[200px]"
+						src="https://dt-dots.myshopify.com/cdn/shop/files/logo.png?v=1684126223&width=400"
+					/>
+				</Link>
 				<img
 					onClick={() => setmobileNav(!mobileNav)}
 					className="lg:hidden cursor-pointer w-[30px]"
@@ -20,15 +22,24 @@ const Header = () => {
 				/>
 				<div className="hidden lg:block lg:mr-[5rem] text-white">
 					<ul className="flex font-medium gap-7 syne text-base">
-						<li>HOME</li>
-						<li>PRODUCTS</li>
-						<li>PAGES</li>
-						<li>CONTACT</li>
+						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+							HOME
+						</li>
+						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+							PRODUCTS
+						</li>
+						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+							PAGES
+						</li>
+						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+							CONTACT
+						</li>
 					</ul>
 				</div>
-				<div className="text-white">
+				<div className="hidden lg:flex cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear text-white">
 					<Link href="/">
 						<svg
+							className="lg:w-[30px]"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"

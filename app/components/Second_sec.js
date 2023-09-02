@@ -5,7 +5,7 @@ const Second_sec = () => {
 	return (
 		<div>
 			<div className="w-screen pb-[8rem] bg-[#171717] flex flex-col items-center">
-				<h1 className="syne mt-[3rem] leading-[85px] max-w-[5ch] md:max-w-[10ch] text-center text-8xl heading_trans_effect">
+				<h1 className="syne mt-[3rem] leading-[85px] w-[5ch] md:w-[10ch] lg:w-[60rem] lg:mb-[2rem] text-center text-8xl heading_trans_effect">
 					WHAT WE OFFER
 				</h1>
 				<div className="w-screen overflow-x-scroll mt-[3rem]">
