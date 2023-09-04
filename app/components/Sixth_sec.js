@@ -22,7 +22,9 @@ const Sixth_sec = () => {
 								setCyber(false);
 								setCreative(true);
 							}}
-							className="cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear">
+							className={`${
+								cyber ? "white" : "text-[#f33c27]"
+							} cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear`}>
 							CYBERSECURITY
 						</h1>
 						<h1
@@ -31,7 +33,9 @@ const Sixth_sec = () => {
 								setCyber(true);
 								setCreative(false);
 							}}
-							className="cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear">
+							className={`${
+								creative ? "white" : "text-[#f33c27]"
+							} cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear`}>
 							CREATIVE DESIGN
 						</h1>
 						<h1
@@ -40,7 +44,9 @@ const Sixth_sec = () => {
 								setCyber(true);
 								setCreative(true);
 							}}
-							className="cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear">
+							className={`${
+								SEO ? "white" : "text-[#f33c27]"
+							} cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear`}>
 							SEO
 						</h1>
 					</div>
