@@ -26,6 +26,10 @@ const Sixth_sec = () => {
 								cyber ? "white" : "text-[#f33c27]"
 							} cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear`}>
 							CYBERSECURITY
+							<div
+								className={`${
+									cyber ? "h-0" : "h-[0.125rem]"
+								} w-48 xl:w-60 bg-white transition-all duration-150 ease-linear`}></div>
 						</h1>
 						<h1
 							onClick={() => {
@@ -37,6 +41,10 @@ const Sixth_sec = () => {
 								creative ? "white" : "text-[#f33c27]"
 							} cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear`}>
 							CREATIVE DESIGN
+							<div
+								className={`${
+									creative ? "h-0" : "h-[0.125rem]"
+								} w-52 xl:w-64 bg-white transition-all duration-150 ease-linear`}></div>
 						</h1>
 						<h1
 							onClick={() => {
@@ -46,8 +54,12 @@ const Sixth_sec = () => {
 							}}
 							className={`${
 								SEO ? "white" : "text-[#f33c27]"
-							} cursor-pointer hover:text-[#f33c27] transition-all duration-500 ease-linear`}>
+							} cursor-pointer hover:text-[#f33c27] transition-all duration-150 ease-linear`}>
 							SEO
+							<div
+								className={`${
+									SEO ? "h-0" : "h-[0.125rem]"
+								} w-12 xl:w-[3.5rem] bg-white`}></div>
 						</h1>
 					</div>
 					<div className={`${cyber ? "hidden" : "flex"} xl:w-[40vw]`}>
