@@ -10,7 +10,7 @@ const Sixth_sec = () => {
 	const [SEO, setSEO] = useState(true);
 	return (
 		<div className="bg-[#171717] pb-28">
-			<h1 className="syne px-8 md:px-20 md:px- pt-12 leading-[85px] lg:text-center text-left text-6xl heading_trans_effect">
+			<h1 className="syne px-8 md:px-20 md:px- pt-12 leading-[85px] lg:text-center text-left text-6xl xl:text-8xl xl:pt-20 xl:mb-20 heading_trans_effect">
 				WHAT WE DO
 			</h1>
 			<div className="mt-16 px-12 flex flex-col xl:flex-row text-white xl:justify-evenly items-center">

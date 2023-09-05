@@ -3,7 +3,7 @@ import React from "react";
 const Fifth_sec = () => {
 	return (
 		<div className="bg-[#171717] overflow-hidden">
-			<h1 className="syne pt-[3rem] leading-[85px] lg:mb-[2rem] text-center text-6xl heading_trans_effect">
+			<h1 className="syne pt-[3rem] leading-[85px] lg:mb-[2rem] text-center text-6xl xl:text-8xl heading_trans_effect">
 				GALLERY
 			</h1>
 			<div className="w-screen  overflow-x-scroll xl:overflow-x-hidden">

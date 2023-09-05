@@ -37,7 +37,7 @@ const Second_sec = () => {
 					</div>
 				</div>
 				<div className="h-[20rem]">
-					<h1 className="syne mt-[3rem] leading-[85px] lg:mb-[2rem] text-center text-6xl heading_trans_effect">
+					<h1 className="syne mt-[3rem] leading-[85px] lg:mb-[2rem] text-center text-6xl xl:text-8xl heading_trans_effect">
 						PARTNERS
 					</h1>
 				</div>
