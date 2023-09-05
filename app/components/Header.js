@@ -22,16 +22,16 @@ const Header = () => {
 				/>
 				<div className="hidden lg:block lg:mr-[5rem] text-white">
 					<ul className="flex font-medium gap-7 syne text-base">
-						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+						<li className="cursor-pointer font-semibold tracking-[0.5px] hover:text-[#f33c27] transition-all duration-200 ease-linear">
 							HOME
 						</li>
-						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+						<li className="cursor-pointer font-semibold tracking-[0.5px] hover:text-[#f33c27] transition-all duration-200 ease-linear">
 							PRODUCTS
 						</li>
-						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+						<li className="cursor-pointer font-semibold tracking-[0.5px] hover:text-[#f33c27] transition-all duration-200 ease-linear">
 							PAGES
 						</li>
-						<li className="cursor-pointer hover:text-[#f33c27] transition-all duration-200 ease-linear">
+						<li className="cursor-pointer font-semibold tracking-[0.5px] hover:text-[#f33c27] transition-all duration-200 ease-linear">
 							CONTACT
 						</li>
 					</ul>

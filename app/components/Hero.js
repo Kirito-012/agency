@@ -18,7 +18,7 @@ const Hero = () => {
 				<Link
 					className="bg-[#f33c27] text-white py-[1.25rem] px-[3rem] mt-[2rem] hover:bg-[#6d6c6c] transition-all duration-700 "
 					href="/">
-					<button>SHOP NOW</button>
+					<button className="syne font-semibold">SHOP NOW</button>
 				</Link>
 				<h2 className="syne mt-[1rem] font-bold cursor-pointer hover:text-[#f33c27] transition-all duration-500">
 					SCROLL
